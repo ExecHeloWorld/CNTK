@@ -119,7 +119,7 @@ TrainNetwork = {
             aspectRatioRadius = 0:0.2
             brightnessRadius = 0:0.2
             contrastRadius = 0:0.2
-            saturationRadius = 0:0.4            
+            saturationRadius = 0:0.4
             hflip = true
             meanFile = "$meanDir$/ImageNet1K_mean.xml"
         }
