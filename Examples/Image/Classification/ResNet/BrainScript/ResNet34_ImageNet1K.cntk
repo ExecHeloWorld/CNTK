@@ -11,7 +11,7 @@ dataDir = "$RootDir$"
 outputDir = "$RootDir$/Output"
 modelDir = "$OutputDir$/Models"
 
-meanDir = "$rootDir$/../../../DataSets/ImageNet"
+meanDir = "$dataDir$"
 modelPath = "$modelDir$/ResNet_34"
 stderr = "$outputDir$/ResNet_34_BS_out"
 
@@ -106,10 +106,10 @@ TrainNetwork = {
             cropType = "RandomSide"
             jitterType = "UniRatio"
             sideRatio = 0.46666:0.875
-            aspectRatioRadius = 0:0.2
-            brightnessRadius = 0:0.2
-            contrastRadius = 0:0.2
-            saturationRadius = 0:0.4
+            aspectRatioRadius = 0.8:1.0
+            brightnessRadius = 0.2
+            contrastRadius = 0.2
+            saturationRadius = 0.4
             hflip = true
             meanFile = "$meanDir$/ImageNet1K_mean.xml"
         }

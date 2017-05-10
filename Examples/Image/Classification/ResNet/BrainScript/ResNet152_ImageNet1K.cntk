@@ -11,7 +11,7 @@ dataDir = "$RootDir$"
 outputDir = "$RootDir$/Output"
 modelDir = "$OutputDir$/Models"
 
-meanDir = "$rootDir$/../../../DataSets/ImageNet"
+meanDir = "$dataDir$"
 modelPath = "$modelDir$/ResNet_152"
 stderr = "$outputDir$/ResNet_152_BS_out"
 
